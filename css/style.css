@@ -19,6 +19,9 @@ header{
 }
 
 .navlogo{
+
+}
+/* .navlogo{
   background-image: url("../img/logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -27,11 +30,16 @@ header{
   position: absolute;
   top: 0;
   left: 0;
-}
+} */
 
 header .navlinks ul{
     list-style-type: none;
     overflow: hidden;
+}
+header .navlinks ul:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 header .navlinks ul li{
