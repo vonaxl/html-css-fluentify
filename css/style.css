@@ -238,6 +238,57 @@ section.secondsection .secondcontainer h4{
 
 /* /third section */
 
+/* fourth section */
+.fourthsection{
+  height: 60vh;
+  background-color: white;
+  background-image: url("../img/mountain.svg");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: 20% 90%;
+  position: relative;
+}
+
+.fourthsection:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fourthsection .fourthtext{
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  height: auto;
+  width: 550px;
+  display: block;
+  text-align: left;
+}
+
+.fourthsection .fourthtext h1{
+  color: black;
+  font-size: 28px;
+  font-weight: normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.fourthsection .fourthtext p{
+  color: gray;
+  font-weight: normal;
+  font-size: 17px;
+  padding-bottom: 15px;
+}
+
+.fourthsection .fourthtext a{
+  color: lightblue;
+  font-weight: normal;
+  text-decoration: underline;
+  text-transform: none;
+  font-size: 15px;
+}
+/* /fourth section */
+
 /* /SECTION CONTAINER PROPERTIES */
 
 
