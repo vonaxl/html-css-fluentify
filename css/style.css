@@ -119,6 +119,20 @@ header .navlogin .navlogincontainer .loginstruttura{
   padding-bottom: 50px;
 }
 /* /SECTION CONTAINER PROPERTIES */
+.bgfotoright{
+  color: white;
+}
+
+.sectioncontainer .bgfotoright .firstsection1{
+  display: block;
+}
+
+.sectioncontainer .bgfotoright .button a{
+  display: inline-block;
+  background-color: #7BBC00;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
 
 /* FOOTER STRUCTURES */
 footer{
