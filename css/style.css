@@ -103,10 +103,10 @@ header .navlogin .navlogincontainer .loginbutton{
 header .navlogin .navlogincontainer .loginstruttura{
   display: inline-block;
   background-color: #7BBC00;
-  border: 1px solid;
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 5px;
+  font-weight: bold;
 }
 
 /* / HEADER STRUCTURES */
@@ -138,6 +138,7 @@ section.firstsection .firstbutton a{
   background-color: #7BBC00;
   padding: 5px 20px 5px 20px;
   border-radius: 5px;
+  font-weight: bold;
 }
 
 
