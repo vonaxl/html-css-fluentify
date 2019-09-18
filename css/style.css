@@ -117,11 +117,33 @@ header .navlogin .navlogincontainer .loginstruttura{
   margin-left: 150px;
   padding-top: 50px;
   padding-bottom: 50px;
+  position: relative;
 }
-/* /SECTION CONTAINER PROPERTIES */
-.bgfotoright{
+
+section{
+  height: 250px;
+}
+
+.bgfotoright:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.firstsectionleft{
   color: white;
+  float: left;
 }
+
+.firstsectionright{
+  float: right;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* /SECTION CONTAINER PROPERTIES */
 
 .sectioncontainer .bgfotoright .firstsection1{
   display: block;
