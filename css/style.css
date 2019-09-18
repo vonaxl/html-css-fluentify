@@ -18,19 +18,13 @@ header{
   position: relative;
 }
 
-.navlogo{
-
+header .navlogo{
+  display: inline-block;
 }
-/* .navlogo{
-  background-image: url("../img/logo.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 40px;
-  position: absolute;
-  top: 0;
-  left: 0;
-} */
+
+header .navlinks{
+  display: inline-block;
+}
 
 header .navlinks ul{
     list-style-type: none;
