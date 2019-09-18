@@ -112,34 +112,32 @@ header .navlogin .navlogincontainer .loginstruttura{
 /* / HEADER STRUCTURES */
 
 /* SECTION CONTAINER PROPERTIES */
-.sectioncontainer{
-  margin-right: 200px;
-  margin-left: 150px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  position: relative;
-}
 
 section{
-  height: 250px;
+  height: 50vh;
 }
 
-.bgfotoright:after {
-  content: "";
-  display: table;
-  clear: both;
+section.firstsection{
+  background-image: url("../img/oldman.png");
+  overflow: hidden;
+  padding: 130px 150px 0px 150px;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 140% 0%;
 }
 
-.firstsectionleft{
+section.firstsection .firsttitle h1{
   color: white;
-  float: left;
+  font-size: 40px;
 }
 
-.firstsectionright{
-  float: right;
-  display: block;
-  width: 100%;
-  height: 100%;
+section.firstsection .firstbutton {
+  padding-top: 20px;
+}
+section.firstsection .firstbutton a{
+  background-color: #7BBC00;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
 }
 
 
