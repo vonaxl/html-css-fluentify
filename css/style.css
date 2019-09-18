@@ -8,6 +8,7 @@
 
 body{
   font-family: monospace;
+  background-color: #0D325A
 }
 
 a{
@@ -25,9 +26,10 @@ a{
 
 /* HEADER STRUCTURES */
 header{
-  background-color: #0D325A;
   position: relative;
   padding: 15px;
+  margin-right: 200px;
+  margin-left: 150px;
 }
 
 nav::after{
@@ -140,6 +142,9 @@ footer .footercontainer ul li{
 }
 footer .footercontainer .leftside ul li a{
   color: #577494;
+}
+footer .footercontainer .leftside ul li a:hover{
+  text-decoration: underline;
 }
 footer .footercontainer .rightside{
   float: right;
