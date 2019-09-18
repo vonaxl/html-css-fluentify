@@ -175,9 +175,23 @@ section.secondsection .secondcontainer h4{
   display: table;
   clear: both;
 }
-
-
 /* firstfloat */
+.thirdsection .thirdcontainer .firstfloat{
+  float: left;
+  background-image: url("../img/profile.svg");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 50% 10%;
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+.thirdsection .thirdcontainer .firstfloat .testo{
+  position: absolute;
+  bottom: 0;
+}
+
+/* /third section */
 
 /* /SECTION CONTAINER PROPERTIES */
 
