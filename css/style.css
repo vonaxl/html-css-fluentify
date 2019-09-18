@@ -148,6 +148,7 @@ section.secondsection{
   background-color: white;
   text-align: center;
   padding: 50px 25% 50px 25%;
+  height: 20vh;
 }
 
 section.secondsection .secondcontainer h3{
