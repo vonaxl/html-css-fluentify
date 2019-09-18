@@ -187,7 +187,7 @@ section.secondsection .secondcontainer h4{
 /* firstfloat */
 
 .thirdsection .thirdcontainer .firstfloat{
-  margin-left: 10%;
+  margin-left: 200px;
   float: left;
   display: block;
   background-image: url("../img/profile.svg");
@@ -203,8 +203,8 @@ section.secondsection .secondcontainer h4{
   bottom: 0;
 }
 .thirdsection .thirdcontainer .secondfloat{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 7%;
+  margin-right: 7%;
   float: left;
   display: block;
   background-image: url("../img/computer.svg");
@@ -220,7 +220,7 @@ section.secondsection .secondcontainer h4{
   bottom: 0;
 }
 .thirdsection .thirdcontainer .thirdfloat{
-  margin-right: 10%;
+  margin-right: 200px;
   float: left;
   display: block;
   background-image: url("../img/doc.svg");
