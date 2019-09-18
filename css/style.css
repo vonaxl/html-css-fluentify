@@ -9,6 +9,7 @@
 a{
   text-decoration: none;
   text-transform: uppercase;
+  color: white;
 }
 
 .container{
@@ -22,12 +23,20 @@ header{
   position: relative;
 }
 
+nav::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 header .navlogo{
-  display: inline-block;
+  display: block;
+  float: left;
 }
 
 header .navlinks{
-  display: inline-block;
+  float: left;
+  display: block;
 }
 
 header .navlinks ul{
@@ -53,12 +62,23 @@ header .navlinks ul li a{
 
 header .navlogin{
   float: right;
+  display: block;
+  line-height: 50px;
+}
+
+header .navlogin .navlogincontainer {
+
+}
+
+header .navlogin .navlogincontainer .label {
   display: inline-block;
 }
 
-header .navlogin .navlogincontainer .label a{
-  text-align: center;
-  color: white;
+header .navlogin .navlogincontainer .loginbutton{
+  display: inline-block;
+}
+header .navlogin .navlogincontainer .loginstruttura{
+  display: inline-block;
 }
 
 /* / HEADER STRUCTURES */
