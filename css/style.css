@@ -112,6 +112,7 @@ header .navlogin .navlogincontainer .loginstruttura{
 /* FOOTER STRUCTURES */
 footer{
   background-color: #17406B;
+  color: white;
 }
 
 footer .footercontainer::after{
@@ -124,6 +125,9 @@ footer .footercontainer .leftside{
   float: left;
   display: block;
 }
+footer .footercontainer .leftside ul li a{
+  color: #577494;
+}
 footer .footercontainer .rightside{
   float: right;
   display: block;
@@ -131,5 +135,9 @@ footer .footercontainer .rightside{
 }
 footer .footercontainer .rightside ul{
   list-style-type: none;
+}
+
+footer .footercontainer .rightside ul li p{
+  color: #7E95AD;
 }
 /* /FOOTER STRUCTURES */
