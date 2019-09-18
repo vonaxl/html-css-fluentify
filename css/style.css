@@ -87,6 +87,9 @@ header .navlogin .navlogincontainer {
 header .navlogin .navlogincontainer .label{
   display: inline-block;
 }
+header .navlogin .navlogincontainer .label a{
+  color: gray;
+}
 
 header .navlogin .navlogincontainer .loginbutton{
   display: inline-block;
@@ -97,6 +100,11 @@ header .navlogin .navlogincontainer .loginbutton{
 }
 header .navlogin .navlogincontainer .loginstruttura{
   display: inline-block;
+  background-color: #7BBC00;
+  border: 1px solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
 }
 
 /* / HEADER STRUCTURES */
