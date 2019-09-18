@@ -1,3 +1,4 @@
+/* GENERAL RULES */
 *{
   padding: 0;
   margin: 0;
@@ -10,9 +11,10 @@
 
 }
 
+/* HEADER STRUCTURES */
 header{
   background-color: #0D325A;
-  height: 100px;
+  /* height: 100px; */
   position: relative;
 }
 
@@ -26,3 +28,25 @@ header{
   top: 0;
   left: 0;
 }
+
+header .navlinks ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+header .navlinks ul li{
+  float: left;
+  text-align: center;
+}
+
+
+header .navlinks ul li a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+
+/* / HEADER STRUCTURES */
