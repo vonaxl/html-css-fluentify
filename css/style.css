@@ -8,7 +8,6 @@
 
 .container{
   margin: auto;
-
 }
 
 /* HEADER STRUCTURES */
@@ -41,7 +40,6 @@ header .navlinks ul li{
   text-align: center;
 }
 
-
 header .navlinks ul li a{
   color: white;
   text-decoration: none;
@@ -50,5 +48,16 @@ header .navlinks ul li a{
   text-transform: uppercase;
 }
 
+header .navlogin{
+  float: right;
+  display: inline-block;
+}
+
+header .navlogin .navlogincontainer .label a{
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
 
 /* / HEADER STRUCTURES */
