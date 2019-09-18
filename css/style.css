@@ -132,6 +132,12 @@ footer .footercontainer .leftside{
   float: left;
   display: block;
 }
+footer .footercontainer ul{
+  list-style-type: none;
+}
+footer .footercontainer ul li{
+  line-height: 30px;
+}
 footer .footercontainer .leftside ul li a{
   color: #577494;
 }
@@ -140,11 +146,10 @@ footer .footercontainer .rightside{
   display: block;
   text-align: right;
 }
-footer .footercontainer .rightside ul{
-  list-style-type: none;
-}
+
 
 footer .footercontainer .rightside ul li p{
   color: #7E95AD;
+  line-height: normal;
 }
 /* /FOOTER STRUCTURES */
