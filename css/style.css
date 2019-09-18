@@ -113,13 +113,9 @@ header .navlogin .navlogincontainer .loginstruttura{
 
 /* SECTION CONTAINER PROPERTIES */
 
-section{
-  height: 50vh;
-}
-
-
 /* first section */
 section.firstsection{
+  height: 50vh;
   background-image: url("../img/oldman.png");
   overflow: hidden;
   padding: 130px 150px 0px 150px;
@@ -164,6 +160,24 @@ section.secondsection .secondcontainer h4{
   padding-bottom: 20px;
 }
 /* /second section */
+
+/* third section */
+.thirdsection{
+  background-color: white;
+}
+.thirdsection .thirdcontainer{
+  text-align: center;
+  position: relative;
+  padding-bottom: 50px;
+}
+.thirdsection .thirdcontainer:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* firstfloat */
 
 /* /SECTION CONTAINER PROPERTIES */
 
