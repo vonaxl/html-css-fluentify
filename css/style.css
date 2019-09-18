@@ -111,6 +111,15 @@ header .navlogin .navlogincontainer .loginstruttura{
 
 /* / HEADER STRUCTURES */
 
+/* SECTION CONTAINER PROPERTIES */
+.sectioncontainer{
+  margin-right: 200px;
+  margin-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* /SECTION CONTAINER PROPERTIES */
+
 /* FOOTER STRUCTURES */
 footer{
   background-color: #17406B;
