@@ -8,7 +8,8 @@
 
 body{
   font-family: monospace;
-  background-color: #0D325A
+  background-color: #0D325A;
+  font-weight: bold;
 }
 
 a{
@@ -106,7 +107,6 @@ header .navlogin .navlogincontainer .loginstruttura{
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 5px;
-  font-weight: bold;
 }
 
 /* / HEADER STRUCTURES */
@@ -138,7 +138,6 @@ section.firstsection .firstbutton a{
   background-color: #7BBC00;
   padding: 5px 20px 5px 20px;
   border-radius: 5px;
-  font-weight: bold;
 }
 
 
