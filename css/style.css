@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: monospace;
+}
+
 a{
   text-decoration: none;
   text-transform: uppercase;
@@ -16,13 +20,14 @@ a{
   margin: auto;
 }
 
+/* /GENERAL RULES */
+
+
 /* HEADER STRUCTURES */
 header{
   background-color: #0D325A;
-  /* height: 100px; */
   position: relative;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 15px;
 }
 
 nav::after{
@@ -55,12 +60,18 @@ header .navlinks ul:after{
 header .navlinks ul li{
   float: left;
   text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 header .navlinks ul li a{
   color: white;
   display: block;
   line-height: 50px;
+}
+
+header .navlinks ul li a:hover{
+  color: orange;
 }
 
 header .navlogin{
