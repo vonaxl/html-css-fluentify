@@ -21,6 +21,8 @@ header{
   background-color: #0D325A;
   /* height: 100px; */
   position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 nav::after{
@@ -37,6 +39,7 @@ header .navlogo{
 header .navlinks{
   float: left;
   display: block;
+  margin-left: 100px;
 }
 
 header .navlinks ul{
