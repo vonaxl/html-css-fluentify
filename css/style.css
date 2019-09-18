@@ -265,7 +265,7 @@ section.secondsection .secondcontainer h4{
   text-align: left;
 }
 
-.fourthsection .fourthtext h1{
+.fourthsection .fourthtext h2{
   color: black;
   font-size: 28px;
   font-weight: normal;
@@ -289,6 +289,48 @@ section.secondsection .secondcontainer h4{
 }
 /* /fourth section */
 
+/* sixth section */
+.sixthsection{
+  height: 60vh;
+  background-image: url("../img/onetoone_session_pc.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 80% 50%;
+  position: relative;
+  margin-left: 150px;
+}
+
+.sixthsection .sixthtext{
+  position: absolute;
+  text-align:  left;
+  font-size: 20px;
+  width: 500px;
+  top: 20%;
+  left: 0;
+}
+
+.sixthsection .sixthtext h2{
+  color: white;
+  line-height: 50px;
+}
+.sixthsection .sixthtext p{
+  color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: normal;
+}
+.sixthsection .sixthtext h2 #orange{
+  color: orange;
+}
+
+.sixthsection .sixthtext a{
+  color: lightblue;
+  text-decoration: underline;
+  font-size: 15px;
+  text-transform: none;
+}
+
+/* /sixth section */
 /* /SECTION CONTAINER PROPERTIES */
 
 
