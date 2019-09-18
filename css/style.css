@@ -113,4 +113,23 @@ header .navlogin .navlogincontainer .loginstruttura{
 footer{
   background-color: #17406B;
 }
+
+footer .footercontainer::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer .footercontainer .leftside{
+  float: left;
+  display: block;
+}
+footer .footercontainer .rightside{
+  float: right;
+  display: block;
+  text-align: right;
+}
+footer .footercontainer .rightside ul{
+  list-style-type: none;
+}
 /* /FOOTER STRUCTURES */
