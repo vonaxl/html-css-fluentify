@@ -190,6 +190,34 @@ section.secondsection .secondcontainer h4{
   position: absolute;
   bottom: 0;
 }
+.thirdsection .thirdcontainer .secondfloat{
+  float: left;
+  background-image: url("../img/computer.svg");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 10%;
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+.thirdsection .thirdcontainer .secondfloat .testo{
+  position: absolute;
+  bottom: 0;
+}
+.thirdsection .thirdcontainer .thirdfloat{
+  float: left;
+  background-image: url("../img/doc.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 50% 10%;
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+.thirdsection .thirdcontainer .thirdfloat .testo{
+  position: absolute;
+  bottom: 0;
+}
 
 /* /third section */
 
