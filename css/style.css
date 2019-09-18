@@ -67,7 +67,7 @@ header .navlinks ul li{
 header .navlinks ul li a{
   color: white;
   display: block;
-  line-height: 50px;
+  line-height: 30px;
 }
 
 header .navlinks ul li a:hover{
@@ -77,19 +77,23 @@ header .navlinks ul li a:hover{
 header .navlogin{
   float: right;
   display: block;
-  line-height: 50px;
+  line-height: 30px;
 }
 
 header .navlogin .navlogincontainer {
 
 }
 
-header .navlogin .navlogincontainer .label {
+header .navlogin .navlogincontainer .label{
   display: inline-block;
 }
 
 header .navlogin .navlogincontainer .loginbutton{
   display: inline-block;
+  border: 1px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
 }
 header .navlogin .navlogincontainer .loginstruttura{
   display: inline-block;
