@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .container{
   margin: auto;
 }
@@ -42,10 +47,8 @@ header .navlinks ul li{
 
 header .navlinks ul li a{
   color: white;
-  text-decoration: none;
   display: block;
   line-height: 50px;
-  text-transform: uppercase;
 }
 
 header .navlogin{
@@ -55,9 +58,7 @@ header .navlogin{
 
 header .navlogin .navlogincontainer .label a{
   text-align: center;
-  text-transform: uppercase;
   color: white;
-  text-decoration: none;
 }
 
 /* / HEADER STRUCTURES */
