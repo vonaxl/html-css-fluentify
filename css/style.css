@@ -212,8 +212,8 @@ section.secondsection .secondcontainer h4{
   bottom: 0;
 }
 .thirdsection .thirdcontainer .secondfloat{
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 14vh;
+  margin-right: 14vh;
   float: left;
   display: block;
   background-image: url("../img/computer.svg");
@@ -378,8 +378,67 @@ section.secondsection .secondcontainer h4{
   font-size: 15px;
   text-transform: none;
 }
-
 /* /sixth section */
+
+/* seventh section */
+.seventhsection{
+  height: 60vh;
+  background-color: white;
+  background-image: url(../img/shakehands.svg);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: 20% 50%;
+  position: relative;
+}
+
+.seventhsection .seventhtext{
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  height: auto;
+  width: 550px;
+  display: block;
+  text-align: left
+}
+
+.seventhsection .seventhtext h2{
+  color: black;
+  font-size: 28px;
+  font-weight: normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.seventhsection .seventhtext p{
+  color: gray;
+  font-weight: normal;
+  font-size: 17px;
+  padding-bottom: 15px;
+}
+
+.seventhsection .seventhtext .insieme::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.seventhsection .seventhtext .insieme a{
+  float: left;
+  background-color: #7BBC00;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  display: block;
+  margin-right: 20px;
+}
+.seventhsection .seventhtext .insieme p{
+  float: left;
+  color: lightblue;
+  display: block;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* /seventh section */
 /* /SECTION CONTAINER PROPERTIES */
 
 
