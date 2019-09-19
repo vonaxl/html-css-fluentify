@@ -150,7 +150,7 @@ section.firstsection .firstbutton a{
 
 /* second section */
 section.secondsection{
-  background-color: white;
+  background-color: #f6f6f6;
   text-align: center;
   padding: 50px 25% 50px 25%;
   height: 20vh;
@@ -600,6 +600,30 @@ section.secondsection .secondcontainer h4{
 }
 
 /* /tenthsection */
+
+/* eleventhsection */
+.eleventhsection{
+  height: 13vh;
+  text-align: left;
+  padding-left: 200px;
+  padding-top: 35px;
+  font-weight: normal;
+}
+
+.eleventhsection h1{
+  color: white;
+  font-size: 24px;
+}
+
+.eleventhsection a{
+  color: orange;
+  text-transform: none;
+}
+
+.eleventhsection h2{
+  color: gray;
+}
+/* /eleventhsection */
 
 /* /SECTION CONTAINER PROPERTIES */
 
