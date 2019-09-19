@@ -30,7 +30,7 @@ header{
   position: relative;
   padding: 15px;
   margin-right: 200px;
-  margin-left: 150px;
+  margin-left: 200px;
 }
 
 nav::after{
@@ -127,7 +127,7 @@ section.firstsection{
   height: 50vh;
   background-image: url("../img/oldman.png");
   overflow: hidden;
-  padding: 130px 150px 0px 150px;
+  padding: 130px 150px 0px 200px;
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: 140% 0%;
@@ -298,6 +298,46 @@ section.secondsection .secondcontainer h4{
 }
 /* /fourth section */
 
+/* fifthsection */
+.fifthsection {
+  height: 15vh;
+  background-color: white;
+  position: relative;
+  font-size: 20px;
+  background-color: #f6f6f6;
+}
+
+.fifthsection .textleft{
+  padding-left: 200px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: #5F6163;
+  font-weight: normal;
+}
+
+.fifthsection .textright{
+  position: absolute;
+  padding-right: 100px;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 0;
+}
+
+.fifthsection .textright label{
+  color: gray;
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+.fifthsection .textright a{
+  background-color: #7BBC00;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  text-transform: none;
+}
+/* /fifthsection */
+
 /* sixth section */
 .sixthsection{
   height: 60vh;
@@ -306,7 +346,7 @@ section.secondsection .secondcontainer h4{
   background-size: 60%;
   background-position: 80% 50%;
   position: relative;
-  margin-left: 150px;
+  margin-left: 200px;
 }
 
 .sixthsection .sixthtext{
@@ -351,7 +391,7 @@ footer{
 
 footer .footercontainer{
   margin-right: 200px;
-  margin-left: 150px;
+  margin-left: 200px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
