@@ -437,8 +437,61 @@ section.secondsection .secondcontainer h4{
   font-size: 15px;
   text-align: center;
 }
-
 /* /seventh section */
+
+/* eighthsection */
+.eighthsection{
+  min-height: 60vh;
+  background-color: white;
+  background-image: url(../img/set.svg);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 50% 0%;
+  position: relative;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.eighthsection .eighthtext{
+  position: absolute;
+  left: 30%;
+  top: 55%;
+  transform: translate(-50% -50%);
+  margin-bottom: 50px;
+  width: 600px;
+}
+
+.eighthsection .eighthtext h2{
+  color: black;
+  font-size: 28px;
+  font-weight: normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#greennum{
+  color: #7BBC00;
+}
+
+.eighthsection .eighthtext #shortfont{
+  font-size: 12px;
+}
+.eighthsection .eighthtext p{
+  color: gray;
+  font-weight: normal;
+  font-size: 17px;
+  padding-bottom: 15px;
+}
+.eighthsection .eighthtext a{
+  color: lightblue;
+  font-weight: normal;
+  font-size: 17px;
+  padding-bottom: 15px;
+  text-decoration: underline;
+  text-transform: none;
+  margin-bottom: 50px;
+}
+/* /eighthsection */
 /* /SECTION CONTAINER PROPERTIES */
 
 
