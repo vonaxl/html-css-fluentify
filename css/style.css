@@ -454,9 +454,9 @@ section.secondsection .secondcontainer h4{
 
 .eighthsection .eighthtext{
   position: absolute;
-  left: 32.5%;
-  top: 55%;
-  transform: translate(-50% -50%);
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   margin-bottom: 50px;
   width: 600px;
 }
@@ -562,7 +562,7 @@ section.secondsection .secondcontainer h4{
 .tenthsection .tenthcontainer .floatcontainer .afloat{
   float: left;
   display: block;
-  max-width: 280px;
+  max-width: 230px;
   margin: 20px;
 }
 
