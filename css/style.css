@@ -491,6 +491,43 @@ section.secondsection .secondcontainer h4{
   text-transform: none;
   margin-bottom: 50px;
 }
+
+.ninthsection{
+  height: 60vh;
+  background-image: url(../img/pc-couple.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 80% 50%;
+  position: relative;
+  margin-left: 200px
+}
+
+.ninthsection .ninthtext{
+  position: absolute;
+  text-align: left;
+  font-size: 20px;
+  width: 600px;
+  top: 20%;
+  left: 0;
+}
+
+.ninthsection .ninthtext h2{
+  color: white;
+  line-height: 50px;
+}
+
+.ninthsection .ninthtext p{
+  color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: normal;
+}
+.ninthsection .ninthtext a{
+  background-color: #7BBC00;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  font-size: 13px;
+}
 /* /eighthsection */
 /* /SECTION CONTAINER PROPERTIES */
 
