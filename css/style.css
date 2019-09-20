@@ -152,10 +152,13 @@ section.firstsection .firstbutton a{
 section.secondsection{
   background-color: #f6f6f6;
   text-align: center;
-  padding: 50px 25% 50px 25%;
-  height: 20vh;
+  min-height: 18vh;
 }
 
+section.secondsection .secondcontainer{
+padding-top: 3%;
+padding-bottom: 3%;
+}
 section.secondsection .secondcontainer h3{
   font-weight: normal;
   font-size: 20px;
